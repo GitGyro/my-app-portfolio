@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <color name="udacity_orange">#F08C35</color>
+    <style name="portfoliButton" parent="@style/AppTheme">
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">@color/udacity_orange</item>
+    </style>
+    <style name="capstonButton" parent="@style/portfoliButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/holo_red_dark</item>
+    </style>
+
+</resources>
